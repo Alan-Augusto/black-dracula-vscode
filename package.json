@@ -1,10 +1,10 @@
 {
-    "name": "theme-dracula",
+    "name": "black-dracula-vscode",
     "version": "2.25.1",
-    "displayName": "Dracula Theme Official",
+    "displayName": "Black Dracula Theme",
     "homepage": "https://draculatheme.com/",
     "description": "The official Dracula Theme: a dark theme for many editors, shells, and more. 🦇",
-    "publisher": "dracula-theme",
+    "publisher": "alan-augusto",
     "license": "MIT",
     "scripts": {
         "build": "node ./scripts/build.js",
@@ -51,14 +51,14 @@
         "theme": "dark"
     },
     "contributes": {
-        "themes": [
+    "themes": [
             {
-                "label": "Dracula Theme",
+                "label": "Black Dracula",
                 "uiTheme": "vs-dark",
                 "path": "./theme/dracula.json"
             },
             {
-                "label": "Dracula Theme Soft",
+                "label": "Black Dracula Soft",
                 "uiTheme": "vs-dark",
                 "path": "./theme/dracula-soft.json"
             }
