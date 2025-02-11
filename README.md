@@ -1,35 +1,39 @@
-# Dracula for [Visual Studio Code](http://code.visualstudio.com)
+## Como instalar:
 
-> A dark theme for [Visual Studio Code](http://code.visualstudio.com).
+1. Clonar o repositório:
 
-![Screenshot](https://raw.githubusercontent.com/dracula/visual-studio-code/master/screenshot.png)
+https://github.com/Alan-Augusto/black-dracula-vscode.git
 
-## Install
+1. Abrir no terminal
+2. Rodar o comando:
 
-All instructions can be found at [draculatheme.com/visual-studio-code](https://draculatheme.com/visual-studio-code).
+    ```jsx
+    code --install-extension .\black-dracula-vscode-2.25.1.vsix
+    ```
 
-## Team
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/visual-studio-code/graphs/contributors).
+## Como editar:
 
-[![Derek S.](https://avatars3.githubusercontent.com/u/5240018?v=3&s=70)](https://github.com/dsifford) |
-:---: |
-[Derek S.](https://github.com/dsifford) |
+Basta alterar o arquivo `./src/dracula.ymml`
 
-## Community
+## Como compilar:
 
-* [Twitter](https://twitter.com/draculatheme) - Best for getting updates about themes and new stuff.
-* [GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
-* [Discord](https://draculatheme.com/discord-invite) - Best for hanging out with the community.
+1. Caso não tenha o `vsce` instalado, rodar o comando:
 
-## Contributing
+    ```jsx
+    npm install -g vsce
 
-If you'd like to contribute to this theme, please read the [contributing guidelines](./.github/CONTRIBUTING.md).
+    ```
 
-## Dracula PRO
+2. Rodar o comando:
 
-[![Dracula PRO](./dracula-pro.png)](https://draculatheme.com/pro)
+    ```jsx
+    vsce package
 
-## License
+    ```
 
-[MIT License](./LICENSE)
+3. E instale no vscode rodando
+
+    ```jsx
+    code --install-extension .\black-dracula-vscode-2.25.1.vsix
+    ```
