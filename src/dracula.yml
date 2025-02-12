@@ -46,7 +46,7 @@ dracula:
     - &TAB_DROP_BG   '#1d1d1d70'
     # UI Variants
     - &BGLighter     '#ffffff'
-    - &BGLight       '#eaeaea' # HSV (230   , 25.71, 27.45)
+    - &BGLight       '#1F1F1F' # HSV (230   , 25.71, 27.45)
     - &BGDark        '#050505' # HSV (234.55, 25   , 17.25)
     - &BGDarker      '#010101' # HSV (234.55, 25   , 13   )
 
